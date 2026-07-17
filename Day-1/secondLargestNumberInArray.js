@@ -1,8 +1,13 @@
-const arr = [12,2,3,3,44,4,3,232,4,45,678]
-let firstLargest = -Infinity
-let secondLargest = -Infinity
+const arr = []
+
 function secondLargestNumberInArray(arr)
 {
+    let firstLargest = -Infinity
+    let secondLargest = -Infinity
+    if(arr.length < 2)
+    {
+        return(null)
+    }
     for(let i=0; i<arr.length; i++)
     {
         if(arr[i] > firstLargest)
@@ -15,8 +20,8 @@ function secondLargestNumberInArray(arr)
             secondLargest = arr[i]
         }
     }
+    return secondLargest, firstLargest
 }
 
-secondLargestNumberInArray(arr)
-console.log(firstLargest)
-console.log(secondLargest)
+let result = secondLargestNumberInArray(arr)
+console.log(result)
