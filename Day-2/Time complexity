@@ -1,0 +1,18 @@
+Time complexity = measure of how efficient the algorithm is in terms of speed and space it takes.
+
+1. o(1)
+2. o(log n)
+3. o(n)
+4. o(n log n)
+5. o(n^2)
+6. o(2^n)
+7. o(n!)
+
+
+Space complexity - if we use any extra space
+
+1. o(1)
+2. o(n)
+
+if we have more time complexities like (o(n^2 + nlogn + 2n)) -> in this case we consider the bigger one and 
+neglect the rest so it boils down to o(n^2)
