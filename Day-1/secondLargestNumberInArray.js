@@ -1,4 +1,4 @@
-const arr = []
+const arr = [1,2,3,3,4,5,5,5,5]
 
 function secondLargestNumberInArray(arr)
 {
@@ -20,7 +20,7 @@ function secondLargestNumberInArray(arr)
             secondLargest = arr[i]
         }
     }
-    return secondLargest, firstLargest
+    return [secondLargest, firstLargest]
 }
 
 let result = secondLargestNumberInArray(arr)
