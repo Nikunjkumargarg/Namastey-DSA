@@ -1,4 +1,4 @@
-Time complexity = measure of how efficient the algorithm is in terms of speed and space it takes.
+Time complexity = measure of how efficient the algorithm is in terms of speed as the input size increases.
 
 1. o(1)
 2. o(log n)
