@@ -16,3 +16,4 @@ function removeElement(arr,val)
 }
 
 console.log(removeElement(arr,val))
+console.log(arr)

@@ -16,7 +16,7 @@
 
 //Note: In above algorithm, if array contains only 1 value then this code will give error "if(arr[i] != arr[i+1])"
 
-let arr = [1]
+let arr = [1,2,3,3,4,5,6,6,6,6,6,8,9,10,10]
 
 function removeDuplicatesFromSortedArray(arr)
 {
@@ -38,3 +38,4 @@ function removeDuplicatesFromSortedArray(arr)
 }
 
 console.log(removeDuplicatesFromSortedArray(arr))
+console.log(arr)
