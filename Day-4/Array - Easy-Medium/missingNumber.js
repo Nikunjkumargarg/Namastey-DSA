@@ -9,3 +9,5 @@ for(let i=0; i<arr.length; i++)
 }
 
 console.log(totalSum-partialSum)
+
+//Time Complexity = o(n)
