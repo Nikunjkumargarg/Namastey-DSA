@@ -26,3 +26,8 @@ Most of the time we write base case at top of the function.
 . Infinite recursion leads to stack overflow.
 
 Time Complexity = o(n)
+
+WHEN TO USE RECURSION?
+1. problem can be broken into sub problems
+2. trees and graphs
+3. backtracking, dp, divide and conquer
