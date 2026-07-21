@@ -1,5 +1,28 @@
 Function calls itself to solve smaller versions of the same problem.
-
+Function calls itself within its own definition.
 Two parts of Recursion: 
 1. Base case - Stop condition (when to stop calling itself)
 2. Recursive Case - part where function calls itself
+
+Real life example:
+1. If a person in queue has to find out how many are in queue, he will ask next to him
+the same question and this continues and replies back to each will be the total number
+in queue
+2. comment threads
+3. organisational hierarchies
+ceo -> cto and cmo -> directors -> vps etc........
+(how many work under you)
+
+fun fact: 
+type recursion on google. when click recursion it will reload same page.
+
+Note:
+code written before the recursive case will execute upgoing, code written after the 
+recursive case will execute downgoing.(callstack - upgoing, downgoing(comingback))
+
+Base case determines when recursion will stop.
+Most of the time we write base case at top of the function.
+ 
+. Infinite recursion leads to stack overflow.
+
+Time Complexity = o(n)
