@@ -1,0 +1,5 @@
+Function calls itself to solve smaller versions of the same problem.
+
+Two parts of Recursion: 
+1. Base case - Stop condition (when to stop calling itself)
+2. Recursive Case - part where function calls itself
