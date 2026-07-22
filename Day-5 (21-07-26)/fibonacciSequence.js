@@ -28,4 +28,9 @@ function fibo(n)
     return fibo(n-1) + fibo(n-2)
 }
 
-console.log(fibo(9))
+console.log(fibo(3))
+
+//Time Complexity is o(2^n) and to improve it, we need dynamic programming
+
+// one branch = o(n) calling recursive function one inside
+// two branches = o(2^n) calling recursive function twice inside
