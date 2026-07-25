@@ -1,0 +1,22 @@
+parts:
+.value
+.reference
+.head
+.tail
+
+type:
+.singly
+.doubly
+
+. fetching element is hard o(n)
+. insertion/deletion is easy  o(n)
+. extra memory (value + reference)
+
+when use array and linked list:
+(General Idea - Not hard and fast)
+
+. access element by index fast  - array
+. insert/delete at head or tail frequently  - linked list
+. memory efficient storage for static size  - array
+. avoid resizing overhead or unknown size upfront  - linked list
+. do lots of traversal/manipulation  - linked list
