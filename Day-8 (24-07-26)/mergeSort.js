@@ -19,7 +19,6 @@ function merge(left,right)
             j++
         }
     }
-
     return [...result, ...left.slice(i), ...right.slice(j)]
 }
 
@@ -29,7 +28,7 @@ function mergeSort(arr)
     {
         return arr
     }
-    let mid = arr.length/2
+    let mid = Math.floor(arr.length/2)
     let left = mergeSort(arr.slice(0,mid))
     let right = mergeSort(arr.slice(mid))
 
