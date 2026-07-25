@@ -1,0 +1,39 @@
+let arr = [23,1,24,10,5,9,15,17]
+
+function merge(left,right)
+{
+    let result = []
+    let i = 0
+    let j = 0
+
+    while(i<left.length && j<right.length)
+    {
+        if(left[i] < right[j])
+        {
+            result.push(left[i])
+            i++
+        }
+        else
+        {
+            result.push(right[j])
+            j++
+        }
+    }
+
+    return [...result, ...left.slice(i), ...right.slice(j)]
+}
+
+function mergeSort(arr)
+{
+    if(arr.length <= 1)
+    {
+        return arr
+    }
+    let mid = arr.length/2
+    let left = mergeSort(arr.slice(0,mid))
+    let right = mergeSort(arr.slice(mid))
+
+    return merge(left,right)
+}
+
+console.log(mergeSort(arr))
