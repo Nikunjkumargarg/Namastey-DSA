@@ -36,3 +36,14 @@ function mergeSort(arr)
 }
 
 console.log(mergeSort(arr))
+
+// Time complexity:
+// . merging - o(n)
+// . divide - o(logn)
+
+// = o(nlogn)
+
+// This time complexity is better than bubble, insertion, selection sort.
+
+// Space complexity:
+// o(n) - while merging new array result is required
