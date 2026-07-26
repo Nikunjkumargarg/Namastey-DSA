@@ -11,6 +11,7 @@ let s = "   fly me to    the moon   "
 
 function reverseString(s)
 {
+    if(!s) return 0
     let i = s.length-1
     let count = 0
 
