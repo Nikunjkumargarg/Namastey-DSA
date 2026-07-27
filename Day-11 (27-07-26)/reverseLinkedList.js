@@ -9,6 +9,6 @@ function linkedList(head)
         prev = curr
         curr =  temp
     }
-    head = prev
+    head =  prev // just had to return the pointer to first node. either return prev or head = prev both mean the same
     return head
 }
