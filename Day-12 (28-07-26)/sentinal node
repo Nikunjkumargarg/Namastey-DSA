@@ -1,0 +1,1 @@
+this is the node we create and attach at start of the linked list to track the next element in case of deleting elements from the linked list.
