@@ -16,6 +16,7 @@ function isPalindrome(head)
         fast = fast.next.next
     }
 
+    // if length of linked list is odd then if condition prevent middle node compare two times. but without this condition also algorithm will work correctly for odd length.
     if(fast)
     {
         slow = slow.next
