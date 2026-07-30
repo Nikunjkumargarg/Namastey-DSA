@@ -12,7 +12,7 @@ function deleteDuplicate(head)
         else
         {
             head = head.next
-        }
+        } 
     }
 
     return sentinalNode.next
