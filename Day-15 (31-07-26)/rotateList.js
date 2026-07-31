@@ -9,7 +9,7 @@ function rotateList(head,k)
         curr = curr.next
         len++
     }
-
+    // To avoid unnecessary rotations
     k = k % len
 
     if(k===0)
@@ -20,11 +20,13 @@ function rotateList(head,k)
     let slow = head
     let fast = head
 
+    //move fast pointer k steps ahead
     for(let i=0; i<k; i++)
     {
         fast = fast.next
     }
 
+    // Reaching the end of the list
     while(fast.next)
     {
         slow = slow.next
