@@ -53,3 +53,6 @@ function jewelAndStones(jewel, stone)
     }
     return count
 }
+
+//space complexity - at max the set will have only 52 elements including all a-z and A-Z -> o(1)
+//time complexity - o(n)
