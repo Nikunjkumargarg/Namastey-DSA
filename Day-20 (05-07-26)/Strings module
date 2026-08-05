@@ -1,0 +1,5 @@
+1. Mostly we use set and maps in string problems because string mostly confined to limited number
+of values like a-z and searching using set and map makes time complexity confined to o(1)
+
+2. whenever we use space, but that space is to store the result, but not used in logical operation
+to get the result then always that space complexity will be o(1) not o(n)
