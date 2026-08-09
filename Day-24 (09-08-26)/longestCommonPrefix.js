@@ -18,5 +18,5 @@ function longestCommonPrefix()
     return strs[0]
 }
 
-// Time complexity - o(n)
+// Time complexity - o(n) - because we are traversing all the characters inside the array elements only once
 // space complexity - o(1)
