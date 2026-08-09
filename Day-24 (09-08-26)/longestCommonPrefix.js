@@ -17,3 +17,6 @@ function longestCommonPrefix()
     }
     return strs[0]
 }
+
+// Time complexity - o(n)
+// space complexity - o(1)
