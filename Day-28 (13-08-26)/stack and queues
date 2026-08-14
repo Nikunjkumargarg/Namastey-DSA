@@ -1,0 +1,33 @@
+Stack and Queue are logical Data Structures.
+
+Examples:
+1 queue - ticket counter, scheduling, printers, queues
+2  stack - stack of books, undo feature, browsing history on a tab, recursion
+
+Why do we need them?
+
+- Organise data logically
+- Order of operations matter
+- optimize time/space for specific use cases
+
+use cases:-
+- recursion
+- level order traversal in trees
+- bfs
+- dfs
+
+what is stack and queue in code?
+- in javascript stack and queue are [] (Array)
+
+When we already have arrays why do we need stack and queues?
+- Restricted Access
+- Cannot modify random index
+- Stack == Array with restricted access
+- Arrays don't enforce discipline (general purpose storage)
+
+Feature         Stack           Queue           Array           Linked List         HashMap
+Order           LIFO            FIFO            INDEXED         SEQUENTIAL          KEY-BASED
+Random Access    _               _              Yes              _                   _
+Insert/Delete   Top Only        End Only        Anywhere(slow)   Anywhere            By Key
+Time Complexity O(1)            O(1)            Varies           O(1) insert         O(1)
+Use Case        Backtracking    Scheduling      General Purpose  Dynamic Size        LookUp    
