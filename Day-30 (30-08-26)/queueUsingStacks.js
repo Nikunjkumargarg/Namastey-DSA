@@ -68,3 +68,7 @@ MyQueue.prototype.empty = function() {
  * var param_3 = obj.peek()
  * var param_4 = obj.empty()
  */
+
+// time complexit for push - o(1)
+//worst time complexity for pop and peek - o(n)
+// average time complexity for pop and peek - o(1)
