@@ -20,3 +20,6 @@ function removeOutermostParenthesis(s)
     }
     return resultString
 }
+
+// time complexity - o(n)
+// space complexity - o(n) // stack
