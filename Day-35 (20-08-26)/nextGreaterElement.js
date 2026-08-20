@@ -42,3 +42,7 @@ function nextGreaterElement(arr1, arr)
     }
     return ans
 }
+
+// iterate array from the end. 
+// time complexity - o(n)
+// space complexity - o(n)
