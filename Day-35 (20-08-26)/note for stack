@@ -1,0 +1,3 @@
+Questions like: next greater element, next smaller element, previous greater element, previous smaller element
+
+Approach: Always consider STACK to solve this questions
