@@ -37,6 +37,7 @@
 //     return stack.pop()
 // }
 
+// Syntax clean: switch is replaced with map object
 function reversePolishNotation(tokens)
 {
     let stack = []
@@ -63,3 +64,6 @@ function reversePolishNotation(tokens)
     }
     return stack.pop()
 }
+
+// Time complexity : o(n)
+// Space complexity : o(n)
